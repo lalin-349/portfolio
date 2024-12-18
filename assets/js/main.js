@@ -74,7 +74,7 @@
 	});
 
 	document.getElementById("email-link").addEventListener("click", function(event) { 
-		setTimeout(function() { window.location.href = "intent://send?to=work@gmail.com#Intent;scheme=mailto;package=com.google.android.gm;end"; }, 100);
+		setTimeout(function() { window.location.href = "intent://send?to=work@gmail.com#Intent;scheme=mailto;package=com.google.android.gm;end"; }, 2000);
 		//  // Delay in milliseconds (adjust if needed) });
 
 
