@@ -14548,10 +14548,21 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   pointer-events: none;
   margin-right: 30px;
 }
+@media screen and (max-width:992px) {
+  .tp-services-capsule-wrapper {
+    height: 450px;
+  }
+}
 @media (max-width: 767px) {
   .tp-services-capsule-wrapper {
     margin-right: 0;
   }
+}
+@media screen and (max-width:767px) {
+  .tp-services-capsule-wrapper {
+    height: 250px;
+  }
+  
 }
 .tp-services-capsule-wrapper > .tp-services-capsule-item-wrapper > p {
   position: absolute;
