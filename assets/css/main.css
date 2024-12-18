@@ -1492,7 +1492,7 @@ div.tp-theme-toggle-single .themepure-theme-toggle-input {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, 20%);
+  transform: translate(-50%, -50%);
   z-index: -1;
 }
 .tp-btn-circle:hover {
