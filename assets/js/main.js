@@ -65,13 +65,17 @@
 		document.addEventListener('DOMContentLoaded', loadbar, false);
 	}());
 
-	document.getElementById("email-link").addEventListener("click", function() {
-		window.location.href = "intent://send?to=lalinsekhar.work@gmail.com#Intent;scheme=mailto;package=com.google.android.gm;end";
-	});
+	// document.getElementById("email-link").addEventListener("click", function() {
+	// 	window.location.href = "intent://send?to=lalinsekhar.work@gmail.com#Intent;scheme=mailto;package=com.google.android.gm;end";
+	// });
 	
 	document.getElementById("email-link-git").addEventListener("click", function() {
 		window.location.href = "https://github.com/lalin-349";
 	});
+
+	document.getElementById("email-link").addEventListener("click", function(event) { 
+		setTimeout(function() { window.location.href = "intent://send?to=work@gmail.com#Intent;scheme=mailto;package=com.google.android.gm;end"; }, 100);
+		//  // Delay in milliseconds (adjust if needed) });
 
 
 	///////////////////////////////////////////////////
