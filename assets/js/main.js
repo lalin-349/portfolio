@@ -66,7 +66,7 @@
 	}());
 
 	document.getElementById("email-link").addEventListener("click", function() {
-		window.location.href = "https://mail.google.com/mail/?view=cm&fs=1&to=lalinsekhar.work@gmail.com";
+		window.location.href = "intent://send?to=lalinsekhar.work@gmail.com#Intent;scheme=mailto;package=com.google.android.gm;end";
 	});
 	
 	document.getElementById("email-link-git").addEventListener("click", function() {
