@@ -2242,6 +2242,21 @@ div.tp-theme-toggle-single .themepure-theme-toggle-input {
   color: var(--tp-common-black);
 }
 
+
+@media screen and (min-width:700px) {
+  .andriod-1 {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:700px) {
+  .desktop-1 {
+    display: none;
+    padding-left: -1000px;
+  }
+}
+
 .tp-3dbtn-hover-effect a {
   display: -webkit-box;
   display: -moz-box;
@@ -3880,7 +3895,7 @@ div.tp-theme-toggle-single .themepure-theme-toggle-input {
 }
 
 .black-bg-3 {
-  background-color: var(--tp-dark-black-4);
+  background-color: var(--tp-dark-black-5);
 }
 
 .black-bg-4 {

@@ -65,9 +65,12 @@
 		document.addEventListener('DOMContentLoaded', loadbar, false);
 	}());
 
+	document.getElementById("contact-page").addEventListener("click", function() {
+		window.location.href = "contact.html";
+	});
+	
+	
 
-	
-	
 
 	///////////////////////////////////////////////////
 	// 03. Wow Js
