@@ -1071,6 +1071,9 @@ div.demo img {
 .tp-theme-dir {
   text-align: center;
 }
+.li-add{
+  color:white;
+}
 .tp-theme-dir-main {
   display: inline-block;
   width: 160px;
@@ -4699,6 +4702,11 @@ div.tp-theme-toggle-single .themepure-theme-toggle-input {
   -o-transform: translateY(0);
   transform: translateY(0);
   transition-delay: 0.9s;
+}
+.closing-x {
+  display: flex;
+  align-items: end;
+  justify-content: end;
 }
 .tp-offcanvas-area.opened .tpoffcanvas__right-info, .tp-offcanvas-area.opened .tpoffcanvas__social-link, .tp-offcanvas-area.opened .tpoffcanvas__logo {
   visibility: visible;
