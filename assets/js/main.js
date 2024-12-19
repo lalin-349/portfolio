@@ -139,33 +139,6 @@
 		let navContent = document.querySelector(".tp-main-menu-content").innerHTML;
 		let mobileNavContainer = document.querySelector(".tp-main-menu-mobile nav");
 		mobileNavContainer.innerHTML = navContent;
-
-		let arrow = $(".tp-main-menu-mobile .has-dropdown > a");
-
-		arrow.each(function () {
-
-			let self = $(this);
-			let arrowBtn = document.createElement("BUTTON");
-			arrowBtn.classList.add("dropdown-toggle-btn");
-			arrowBtn.innerHTML = `<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M14 1V27" stroke="currentcolor" stroke-opacity="0.95" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-			<path d="M1 14H27" stroke="currentcolor" stroke-opacity="0.95" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-			</svg>`;
-
-			self.append(function () {
-				return arrowBtn;
-			});
-
-			self.find("button").on("click", function (e) {
-				e.preventDefault();
-				let self = $(this);
-				self.toggleClass("dropdown-opened");
-				self.parent().toggleClass("expanded");
-				self.parent().parent().addClass("dropdown-opened").siblings().removeClass("dropdown-opened");
-				self.parent().parent().children(".tp-submenu").slideToggle();
-			});
-
-		});
 	}
 
 	////////////////////////////////////////////////////

@@ -16663,6 +16663,19 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   font-weight: 500;
   color: var(--tp-common-white);
 }
+@media screen and (max-width:660px) {
+  .row {
+    margin-right: 10%;
+    margin-left: 0px;
+  }
+  
+}
+
+@media screen and (max-width:460px) {
+  .row {
+    margin-right: calc(100% - 400px);
+  }
+}
 .tp-skill-radius .row [class*=col-]:nth-child(even) .tp-skill-thumb {
   border-radius: 0px 100px 100px 100px;
 }
@@ -18135,6 +18148,13 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
 .contact-inner__mail-info a:hover::after {
   width: 100%;
 }
+
+@media screen and (max-width:471px) {
+  .contact-inner__mail-info a {
+   font-size: 29px;
+  }
+}
+
 .contact-inner__mail-text p {
   font-weight: 500;
   font-size: 18px;
