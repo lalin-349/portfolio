@@ -18155,7 +18155,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   width: 100%;
 }
 
-@media screen and (max-width:471px) {
+@media screen and (max-width:500px) {
   .contact-inner__mail-info a {
    font-size: 29px;
   }
