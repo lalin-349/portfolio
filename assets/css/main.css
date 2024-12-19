@@ -1379,6 +1379,11 @@ div.tp-theme-toggle-single .themepure-theme-toggle-input {
   position: relative;
   display: inline-block;
 }
+@media screen and (max-width:1073px) {
+  .tp-hamburger-btn {
+    width:32px;
+  }
+}
 .tp-hamburger-btn span {
   background: var(--tp-common-black);
   border-radius: 3px;
