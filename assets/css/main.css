@@ -4913,8 +4913,8 @@ div.tp-theme-toggle-single .themepure-theme-toggle-input {
   position: fixed;
   top: 0;
   right: 0;
-  /* width: 450px; */
-  width:calc(100% - 950px);
+  width: 450px;
+  /* width:calc(100% - 950px); */
   height: 100%;
   z-index: 99;
   z-index: 9999;
