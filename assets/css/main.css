@@ -821,6 +821,16 @@ button:focus {
     padding-left: -1000px;
   }
 }
+@media screen and (max-width:988px) {
+  .desktop-1 {
+    margin-left:-220px;
+  }
+}
+@media screen and (max-width:767px) {
+  .desktop-1 {
+    margin-left: 0px;
+  }
+}
 
 /*----------------------------------------*/
 /*  2.4 Animations
@@ -5046,6 +5056,8 @@ xclip
 .contact-inner__mail-info a:hover::after {
   width: 100%;
 }
+
+
 
 @media screen and (max-width:500px) {
   .contact-inner__mail-info a {
