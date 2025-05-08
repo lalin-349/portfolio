@@ -4338,6 +4338,12 @@ xclip
   align-items: end;
   justify-content: end;
 }
+@media screen and (min-width:768px) and (max-width:991px) {
+  .row>*{
+    padding-left: calc(var(--bs-gutter-x) * 0);
+  }
+}
+
 .tp-services-accordion .accordion-body ul li::after {
   left: 0;
   top: 10px;
@@ -4745,15 +4751,20 @@ xclip
 }
 @media screen and (max-width:660px) {
   .row {
-    margin-right: 10%;
+    margin-right: 0%;
     margin-left: 0px;
   }
   
 }
 
-@media screen and (max-width:460px) {
+@media screen and (max-width:366px) {
   .row {
-    margin-right: calc(100% - 400px);
+    margin-left: -10px;
+  }
+}
+@media screen and (max-width:339px) {
+  .row {
+    margin-right: calc(100% - 300px);
   }
 }
 .tp-skill-radius .row [class*=col-]:nth-child(even) .tp-skill-thumb {
