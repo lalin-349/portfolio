@@ -3209,6 +3209,7 @@ xclip
 .tp-header-hamburger {
   height: 16px;
   line-height: 16px;
+  margin-right: 80px;
 }
 .tp-header-hamburger .tp-hamburger-btn {
   -webkit-transform: translateY(-7px);
@@ -3236,10 +3237,11 @@ xclip
   .top-toggle-button {
     margin-left: 200%;
   } 
+  
 }
 @media screen and (max-width:770px) {
   .top-toggle-button {
-    margin-left: 220%;
+    margin-left: 250%;
   } 
 }
 
