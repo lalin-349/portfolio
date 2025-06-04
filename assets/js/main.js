@@ -44,8 +44,8 @@
 			function imgLoaded() {
 				c += 1;
 				var perc = ((100 / tot * c) << 0) + "%";
-				prog.style.width = perc;
-				number.innerHTML = perc;
+				// prog.style.width = perc;
+				// number.innerHTML = perc;
 
 				if (c === tot) return doneLoading();
 			}
@@ -1385,8 +1385,7 @@
 	function mediaSize() {
 
 		if ($(window).width() > 1199) {
-			console.log('hi')
-			if ($('#pagepiling').length > 0) {
+					if ($('#pagepiling').length > 0) {
 				
 				$('#pagepiling').pagepiling({
 					menu: '#onePageMenu',
